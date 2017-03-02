@@ -1,0 +1,553 @@
+
+/* 
+center = element 
+.center = class
+#center = id
+
+*/
+
+#loginnotif {
+	float:right;
+
+}
+
+#hbar{ /* for header search bar*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: rgba(255,255,255,.8);
+	padding: 5px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: left;
+	font-size:16px;
+}
+
+
+
+/* testing for search form page */
+.hbar{ /* for header search bar*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: rgba(255,255,255,.8);
+	padding: 5px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: left;
+	font-size:18px;
+}
+
+.hbar input[type="text"]{ /* for header search bar*/
+	border-style: none;
+	
+	border-color: black;
+	background-color: rgba(255,255,255,.8);
+	padding: 0px;
+	text-align: left;
+	font-size:18px;
+}
+
+
+.hbar input[type="button"]{ /* for header search bar*/
+	
+	padding: 5px;
+	
+	
+	font-size:18px;
+}
+
+.hbar select{ /* for header search bar*/
+	
+	padding: 5px;
+	
+	
+	font-size:18px;
+}
+
+#searchDrop { /* reappearing drop down css for the search rating option*/
+	visibility: hidden;
+}
+
+/*
+.hbar form::input[button]{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: rgba(255,255,255,.8);
+	padding: 5px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: left;
+	font-size:16px;
+}
+*/
+
+.submission h1{ /* h1 on submission page*/
+	text-align: center;
+	text-align: center;
+	color: maroon;
+	font-size: 18px;
+
+}
+
+#regForm { /* styling for the registration input forms*/
+	text-align:right;
+	padding-right: 25%;
+	padding-left:25%;
+
+}
+
+#textSub{
+
+}
+
+html, body {  /* styling for the body for percents*/
+	background-color: #9999FF;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	margin:0px;
+	
+	background-image: url("pic/hamwall.jpg"); /* picture taken from here: http://cycleprofix.com/wp-content/uploads/2013/09/Hamilton-Ontario-Skyline_1920x1080.jpg i will replace after with my own picture to avoid plagerising*/
+	background-attachment: fixed;
+	height:auto;
+	width:auto;/*
+	min-width:400px; 
+	max-width:400px;*/
+	height:100%;
+	width:100%; 
+	
+}
+
+
+
+#registration input[type="submit"]{ /* styling for registration submit button*/
+	display:inline-block;
+	padding-left: 20px;
+	padding-right: 20px ;
+
+
+	text-align: right;
+	font-size:10pt;
+	font-weight: bold;
+	/*background-color: #003399;*/
+	color: white;   
+	/*border-style: outset;*/
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: .5%;
+	margin-right: .5%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: maroon;
+}
+
+#registration input[type="submit"]:hover{ /* styling for registration submit button hover*/
+	display:inline-block;
+	padding-left: 20px;
+	padding-right: 20px ;
+
+
+	text-align: center;
+	font-size:10pt;
+	font-weight: bold;
+	/*background-color: #003399;*/
+	color: yellow;   
+	/*border-style: outset;*/
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: .5%;s
+	margin-right: .5%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: maroon;
+}
+
+
+#registration h1{ /* styling for registration header*/
+	text-align: center;
+	text-align: center;
+	color: maroon;
+	font-size: 18px;
+}
+
+#registration input[type="text"]{ /* styling for registration tesxt input*/
+	font-size: 12px;
+	margin-bottom: 10px;
+	align: right;
+}
+
+#registration input[type="password"]{ /* styling for registration password*/
+	font-size: 12px;
+	margin-bottom: 10px;
+	align: right;
+}
+
+#login input[type="text"]{ /* styling for registration submit button*/
+	font-size: 16px;
+	margin-bottom: 10px;
+	align: right;
+
+
+}
+
+#login input[type="password"]{ /* styling for login buttons*/
+	font-size: 16px;
+	margin-bottom: 10px;
+
+	align: right;
+
+}
+
+
+
+
+
+
+#header { height: 80px; /* styling for header id*/
+	text-align: center;
+	background-color: #003399;
+	color: white;
+}
+
+
+#login{
+
+}
+.content p{ /* styling for main p*/
+	font-size:12px;
+}
+.content {  /* styling for main content*/
+
+	padding: 10px;
+	
+	
+	background-color: rgba(255,255,255,.8);
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	
+	
+}
+
+.content h2{ /* styling for main content header*/
+	text-align: left;
+	color: maroon;
+	font-size: 18px;
+}
+
+
+
+.content form{ /* styling for form fields in the content wrappers*/
+	text-align:left;
+
+}
+
+
+
+.revbox{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #003399;
+	margin-bottom: 5px;
+	background: white;
+	
+}
+
+
+.content.revbox{ /* styling for the review boxes on each obj page*/
+	border-style: solid;
+	border-width: 4px;
+	border-color: #003399;
+	margin-bottom: 5px;
+	background-color: rgba(255,255,255,.8);
+	
+}
+ 
+#contentleft { /* styling for main content for object appearing on hte left of teh screen*/
+	
+	
+	
+	vertical-align: top;
+	display: inline-block;
+	
+	width:45%;
+	background-color: rgba(255,255,255,.8);
+	margin-bottom: 10px;
+	margin-top:10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	text-align: right;
+
+	
+}
+
+#contentleft form{ /* styling for main content for object appearing on hte left of teh screen with forms*/
+	
+	padding-right: 18%;
+	padding-bottom:10px;
+	font-size:15px;
+
+}
+
+
+
+
+#contentright { /*  styling for main content for object appearing on hte right of teh screen*/
+
+	padding: 10px;
+	text-align: right;
+	vertical-align: top;
+	
+	float:right; 
+	display: inline-block;
+	
+	width:45%;
+	background-color: rgba(255,255,255,.8);
+	margin-bottom: 10px;
+	margin-top:10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	
+}
+#contentright h1{ /* right headers */
+	text-align: center;
+	color: maroon;
+	font-size: 18px;
+}
+
+#contentright img{ /* images in right side content boxes */
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+#contentleft img{/**/
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+.mutlicontent { /**/
+
+}
+
+#menu button{/* for the menu button on the top of head page*/
+	display:inline-block;
+	padding-top: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
+
+
+	text-align: center;
+	font-size:16pt;
+	font-weight: bold;
+	/*background-color: #003399;*/
+	color: maroon;   
+	/*border-style: outset;*/
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: .5%;
+	margin-right: .5%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#menu button:hover{ /**/
+	background-color: maroon;
+	color:white;
+}
+
+#menu { /**/
+	
+	padding-top: 15px;
+	
+	
+	
+	text-align: center;
+	font-size:12pt;
+	font-weight: bold;
+	
+
+	text-decoration: none;
+	
+}
+
+
+
+
+#menu a{height: 50px; /* styling for menu clickables*/
+	padding-top: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-size:12pt;font-weight: bold;
+	/*background-color: #003399;*/
+	color: #003399;   
+	/*border-style: outset;*/
+	text-decoration: none;
+	border-radius: 5px;
+	/*
+	margin:5px;
+	*/
+
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background: white;
+}
+
+#wrapper{ /* main wrapper styling */
+	
+	margin-left: 15%;
+	margin-right:15%;
+	text-align: left;
+	min-width:500px;
+}
+
+
+.footer { /* foorter styling*/
+	margin-top: 5px;
+	padding:20px;
+	border:2px solid black;
+	background-color: white;
+	text-align: center;
+	clear: both;
+}
+ 
+.footer2 { /* foorter styling*/
+	margin: 5px;
+	padding: 5px;
+	border:2px solid maroon;
+	background-color: white;
+	text-align: center;
+	clear: both;
+	
+}
+
+.rowwrapper{ /* styling for row wrappers on search results */
+	padding: 5px
+
+}
+
+.searchres { /* styling for the text of each serach result*/
+	display: inline-block;
+	position: relative;
+	font-size: 12px;
+	vertical-align: top;
+	
+}
+ 
+.searchmap { /* styling for hte map of each search result*/
+
+	/*border-style: solid;
+	border-width: 2px;
+	border-color: black;*/
+	background: white;
+	text-align: left;
+	width: 20%;
+	
+
+	vertical-align: top;
+	
+	/*float: right;*/
+	display:inline-block;
+	
+	
+	
+}
+.res_rating { /* styling for the rating display after search*/
+
+	display:inline-block;
+	float:right;
+	padding-right1%;
+
+	
+	background: white;
+	text-align: right;
+	width: 150px;/*
+	padding: 20px;*/
+	vertical-align: top;
+	font-size: 12px;
+}
+ 
+.searchrow { /* styling for serch rows*/
+	
+	top: 5%;
+    
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-bottom: 15px;
+	background: white;
+	text-align: left;
+	width:100%;
+	vertical-align: top;
+	
+	
+	display:inline-block;
+	/*float:left; */
+	/*display:block;*/
+}
+
+textarea{ /* styling for tesxt submission box */
+
+	width: 100%;
+	height:150px;
+	
+	
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	resize:none;
+}
+#test {
+	vertical-align: top;
+}
+
+.dropdownContainer {
+
+}
+
+
+#existing-obj-review {
+	display:inline-block;
+	background-color:rgba(28, 138, 212, 1);
+	font-size: 16px;
+	box-shadow: none;
+	border-width: .5px;
+	border-radius: 5px;
+	color: white;
+	padding:10px;
+
+}
+.submit-review-wrap{
+	margin-bottom:10px;
+	display:inline-block;
+}
+
+.img_container_res {
+	width:200px;
+	height:100px;
+	display: inline-block;
+	margin:0px;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.img_container_obj {
+	width:100%;
+	height:340px;
+	display: inline-block;
+	margin:0px;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
